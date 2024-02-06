@@ -1,0 +1,64 @@
+body {
+    background-color:darkslategrey;
+    color:whitesmoke;
+}
+
+span {
+    color: darksalmon;
+    border: 1px solid darksalmon;
+    padding: 10px;
+    border-radius: 70px;
+}
+
+.basic_info {
+    padding-top: 50px;
+    padding-left: 25%;
+    padding-right: 25%;
+    text-align: justify;
+}
+
+.basic_info p {
+    font-size: 20px;
+    
+}
+
+.basic_info .tolink {
+    font-size: 25px;
+    text-decoration:underline;
+    padding-left: 30%;
+    padding-right: 25%;
+    
+}
+
+.link {
+    font-size: 20px;   
+    padding-left: 30%;
+    padding-right: 25%;
+}
+
+.link .inst {
+    padding: 5px;
+    background-color: darksalmon;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 10% 0px 10% 0px;
+    color: black;
+}
+
+
+.link .git {
+    padding: 5px;
+    background-color: darksalmon;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 10% 0px 10% 32%;
+    color: black;
+}
+
+img {
+    display: flex;
+    width: 25%;
+    padding-left: 35%;
+    padding-right: 25%;
+    
+}
