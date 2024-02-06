@@ -1,0 +1,21 @@
+HTML significa Hyper Text Markup Language (ou "linguagem de marcação de hiper texto").
+
+- Define a estrutura da página;
+- ROtulam o conteúdo: título, link, etc.
+
+ELEMENTOS DE BLOCO block-level elements
+-usan todo o espaço do container/elemento pai. ex: <p>
+
+ELEMENTOS INLINE
+-geralmente usados para demarcação de conteúdos de texto.
+
+CSS é uma linguagem de estilização
+- descreve como os elementos html devem ser exbidos na tela!
+- estiliza a página
+
+BOAS PRÁTICAS EM CLASSES NO CSS
+1. BASE: o estilo base de todas as páginas ( reset, container, etc )
+2. Layout: o estilo específico de cada página ( courses.css, carreiras.css, etc )
+3. Module: o estilo de componentes que se repetem em várias páginas ( box.css )
+4. STATE: mudar o estado de um elemento, ou seja, uma segunda configuraçã ode classe que será atribuída a ele somente quando seu estado mudar.
+5. THEME: Essa parte é basicamente para organizar CSS quando lidamos com projetos que podem ter toda a sua interface visual modificada rapidamente por outra. Imagina sites que você pode alterar uma opção e mudar para o tema DARK do site, que muda todo o visual..

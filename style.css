@@ -3,7 +3,7 @@ body {
     color:whitesmoke;
 }
 
-span {
+.titulo-destaque {
     color: darksalmon;
     border: 1px solid darksalmon;
     padding: 10px;
