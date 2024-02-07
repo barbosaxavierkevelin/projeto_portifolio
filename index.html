@@ -5,11 +5,21 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- indicar para que sempre seja usada a versão mais atual do edge, e que tenha compatibilidade com as versões mais antigas-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--colocar a página automaticamente na escala conforme o tamanho do dispositivo, para ajustar automaticaemnte-->
         <title>Portifólio Kevelin</title>
-        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./styles/style.css">
     </head>
     
     <body> <!--Tudo que estiver dentro desta tag será visível no site. É o corpo do site-->
-        <header></header>
+        <header class="cabecalho">
+            <nav class="cabecalho__menu">
+                <a class="cabecalho__menu__link" href="./index.html">Home</a>
+                <a class="cabecalho__menu__link" href="./about.html">Sobre mim</a>
+                <a class="cabecalho__menu__link" href="./formacao.html">Formação</a>
+                <a class="cabecalho__menu__link" href="">Projetos de Front-end</a>
+                <a class="cabecalho__menu__link" href="">Projetos de Back-end</a>
+                <a class="cabecalho__menu__link" href="">Projetos Full-stack</a>
+                <a class="cabecalho__menu__link" href="">Publicações científicas</a>
+            </nav>
+        </header>
 
         <main class="apresentacao">
             <section class="apresentacao__conteudo">
@@ -19,44 +29,41 @@
                 </h1>
 
                 <p class="apresentacao__conteudo__texto">
-                    Sou desenvolvedora Full-stack com especialidade em Data-Science, HTML e CSS. 
+                    Sou uma profissional multidisciplinar, com background em biologia, genética e melhoramento de plantas, biotecnologia vegetal, data science e desenvimento web Full-stack. 
                     Aqui irei te guiar pela minha história pessoal e profisional.
                     Deixo também meus contatos, fique à vontade para perguntar qualquer coisa!
                     Vamos conversar!                    
                 </p>
 
-               <!-- <h2>Sobre mim:</h2> -->
-
-               <!-- <p class="apresentacao__conteudo__texto"> <!--tag de parágrafo
-                    Sou bióloga, mestre em genética e melhoramento de plantas e quase doutora em biotecnologia vegetal. Atualmente trabalho com análises transcriptômicas de cannabis, tendo experiência com data science. Estou percorrendo o caminho do desenvolvimento front-end desde que decidi transformar os dados da minha tese num webapp.
-                </p> -->
-
-
-                <div class="apresentacao__links">
+                              <div class="apresentacao__links">
                     <h2 class="apresentacao__links__subtitle">Acesse minhas redes!</h2>
 
                     <a class="apresentacao__links__link" href="https://www.linkedin.com/in/kevelin-barbosa-xavier-774139183/"> <!--tag âncora. para levar para outro lugar, outra página-->
                     <!--o href é para colocar o link da página para a qual quero que o usuário seja redirecionado-->
-                    <img class="apresentacao__links__icones" src="./assets/linkedin.png" alt="ícone do linkedin">    
+                    <img class="apresentacao__links__icones" src="./assets/linkedin_icon.svg" alt="ícone do linkedin">    
                     LinkedIn
                     </a>
 
                     <a class="apresentacao__links__link" href="https://github.com/barbosaxavierkevelin">
-                        <img class="apresentacao__links__icones" src="./assets/github.png" alt="logo github">
+                        <img class="apresentacao__links__icones" src="./assets/github_logo_icon.svg" alt="logo github">
                         GitHub</a>
 
                     <a class="apresentacao__links__link" href="https://www.instagram.com/kevelin_barbosa/">
-                        <img class="apresentacao__links__icones" src="./assets/instagram.png" alt="logo instagram">
+                        <img class="apresentacao__links__icones" src="./assets/instagram_logo_icon.svg" alt="logo instagram">
                         Instagram</a>
                 </div>
 
             </section>
 
-            <img class="foto-perfil" src="./EU.jpg" alt="Selfie de Kevelin Barbosa Xavier"> <!--inserir imagem-->
+            <img class="foto-perfil" src="./assets/EU.jpg" alt="Selfie de Kevelin Barbosa Xavier"> <!--inserir imagem-->
         
         </main>
 
-        <footer></footer>
+        <footer class="rodape">
+            <p>Desenvolvido por Kevelin Barbosa Xavier em Fevereiro de 2024.</p>
+        </footer>
             
     </body>
+
+
 </html> <!--TAG DE FECHAMENTO-->

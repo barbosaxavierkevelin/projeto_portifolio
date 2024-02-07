@@ -1,0 +1,15 @@
+.formacao__lista {
+    display: flex;
+    flex-direction: column;
+}
+
+.formacao__lista_item {
+    padding: 0% 0% 2% 0%;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.formacao__lista_item__ano {
+    color: darksalmon; 
+}
