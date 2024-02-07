@@ -27,7 +27,7 @@ body {
     margin: 10% 15%;
 }
 
-img {
+.foto-perfil {
     width: 400px;
     border-radius: 30px;
     border-right: 20px solid rgb(75, 18, 22); 
@@ -37,13 +37,13 @@ img {
  .apresentacao__conteudo {
     display: flex;
     flex-direction: column;
-    gap: 38px;
+    gap: 36px;
     width: 615px;
     height: 482px;
 }
 
 .apresentacao__conteudo__titulo {
-    font-size: 36px;
+    font-size: 38px;
     text-align: center;
     font-family: 'Protest Riot', sans-serif;
 }
@@ -57,22 +57,44 @@ img {
 
 .apresentacao__links {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__links__subtitle {
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Protest Riot', sans-serif;
+    font-weight: 400;
+    color: darksalmon;
+    border-bottom: 3px dashed rgb(75, 18, 22);
 }
 
 .apresentacao__links__link {
-    background-color: darksalmon;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+    align-content: center;
     border-radius: 16px;
-    color: black;
-    padding: 10px 0px 5px 0px;
-    font-weight: 800;
-    font-size: 24px;
+    color: darksalmon;
+    padding: 5px 0px 5px 0px;
+    font-weight: 600;
+    font-size: 20px;
     text-align: center;
-    width: 280px;
+    width: 200px;
     text-decoration: none;
-    border-bottom: 10px solid rgb(75, 18, 22);
-    box-shadow: -15px 10px rgba(33, 151, 135, 0.356);
+    border-bottom: 3px solid rgb(75, 18, 22);
+    border-right: 3px solid rgb(75, 18, 22);
 }
+
+.apresentacao__links__icones {
+    width: 28px;
+}
+
+
 
 /*.basic_info {
     padding-top: 50px;
