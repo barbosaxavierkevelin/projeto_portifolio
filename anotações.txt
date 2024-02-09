@@ -100,3 +100,21 @@ Além do mais, por ser muito utilizada para agrupar elementos, acaba facilitando
 =======================================================================
 
 CRIAMOS UM NOVO ARQUIVO HTML PARA UMA NOVA PÁGINA!!!
+
+
+====================================
+Unidade de medida relativa REM
+------------------------------
+
+usada para responsividade e adaptação a diferentes tamanhos de tela.
+
+varia de acordo com o tamanho de fonte da raiz (do html)
+16px é aproximadamente 1rem.
+
+então, por exemplo, se quero algo  referente a 42px, faço 42/16 = 6.625rem
+
+
+===================================
+media queries
+---------------
+ garantir a adaptação dos objetos, da pra determinar um tamanho minimo ou maximo de tela, a partir do qual a conmfiguração css irá mudar. Dessa forma melhorando a experiencia do usiário.
